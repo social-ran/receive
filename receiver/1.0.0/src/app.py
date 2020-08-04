@@ -8,7 +8,7 @@ class receiver(AppBase):
     def __init__(self, redis, logger, console_logger=None):
         super().__init__(redis, logger, console_logger)
 
-    async def receiver(self, ip, start_time="2018-08-11 13:41:11", end_time="2018-08-11 13:41:41",
+    async def receive(self, ip, start_time="2018-08-11 13:41:11", end_time="2018-08-11 13:41:41",
                         log_path="/var/log/appsimulation/traffic_gen.log"):
         fp = open('/home/config/post_info.json', 'w')
         fp.write('{\n"cmd_info":{\n"cmd":"start"\n},\n"task_info":{\n"log_path":"')
