@@ -8,8 +8,8 @@ contact_info:
   email: ran131110@163.com
 
 actions:
-- name: receiver
-    description: receiver
+- name: receive
+    description: receive pkg
     parameters:
       - name: ip
         description: one number
