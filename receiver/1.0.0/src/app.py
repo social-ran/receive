@@ -25,7 +25,7 @@ class receiver(AppBase):
         fp.write('1000')
         fp.write('",\n"size_Cauchy1":"500",\n"size_Cauchy2":"1"\n}\n}\n')
         os.system('./tra_docker_make/run.sh')
-        return "receiver stop!"
+        return "receiver OK!!"
 
 
 if __name__ == "__main__":
